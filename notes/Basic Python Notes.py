@@ -1,3 +1,4 @@
+'''
 print("Hello world!")
 
 # This is a comment. I can write whatever i want
@@ -45,4 +46,85 @@ print("%s?! you belong in a museum." % age)
 real_age = int(input("How old are you? >_"))
 hidden_age = real_age + 5
 print(hidden_age)
-print("%d is incredibly old. You are actually %d old." % (hidden_age, real_age)) 
+print("%d is incredibly old. You are actually %d old." % (hidden_age, real_age))
+'''
+
+# Functions
+def printHelloWorld():
+    print("hellowrold!")
+
+printHelloWorld()
+'''
+This is a multi-line comment
+I can type anywhere here
+'''
+
+# f(x) = 2x + 3
+def f (x):
+    print(2*x + 3)
+
+
+
+
+f (1)
+f (1)
+f (1)
+# Loops
+for i in {1,2,3}:
+    printHelloWorld()
+
+
+print()
+for i in range(1):
+    printHelloWorld()
+
+    print()
+for i in range(5):  # Range starts at 0 and goes to 4
+    f(i)
+
+for i in range(5):
+    print(1**2)
+
+
+# White loops
+a = 0
+while a < 10:
+    print(a)
+    a += 1  # This is the same thing as a = a + 1
+
+print()
+'''
+Hints whith loops:
+For loops - Use when you know EXACTLY how many iterations 
+While loops - Use when you DON'T know how many iterations
+'''
+
+# Random numbers
+import random  # This should always be in line 1
+print(random.randint(0,100))
+
+# Control Statements
+def grade_calc(percentage):
+    if percentage >= 90:
+        return "A"
+    elif percentage >= 80:
+        return "B"
+    elif percentage >= 70:
+        return"C"
+    elif percentage >= 60:
+        return"D"
+    else:
+        return"F"
+
+
+print(grade_calc(12))
+
+# Equality Statements
+print(5 > 3)
+print(5 >= 3)
+print(3 == 3)
+print(3 != 4)
+'''
+a = 3 # A is set to 3
+a == 3 # Is a equal to 3?
+'''
