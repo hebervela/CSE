@@ -29,7 +29,7 @@ class WaterGun(object):
 # initiate the objects
 my_Water_Gun = WaterGun(5.2, 40, True)
 your_Water_Gun = WaterGun(1.0, 1, False)
-wiebe_Water_Gun = WaterGun(9999999999,99999999999999999999, True)
+wiebe_Water_Gun = WaterGun(9999999999, 99999999999999999999, True)
 yahir_Water_Gun = WaterGun(0.1)
 
 # do stuff with the object
