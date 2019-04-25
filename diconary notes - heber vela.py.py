@@ -16,12 +16,12 @@ world_map = {
 }
 
 # Other Variables
-directions = ["NORTH", "SOUTH", "EAST", "WEST", "UP", "DOWN"]
+
+# Controller
+while playing:directions = ["NORTH", "SOUTH", "EAST", "WEST", "UP", "DOWN"]
 current_node = world_map["R19A"]  # This is your current location
 playing = True
 
-# Controller
-while playing:
     print(current_node['NAME'])
 
     command = input(">_")
